@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files = ['./spec/omniauth/strategies/meetup_spec.rb', 'spec/spec_helper.rb']
 
   # specify any dependencies here; for example:
-  gem.add_dependency 'omniauth', '~> 1.0'
+  gem.add_dependency 'omniauth', '>= 2.0', '< 3.0'
   gem.add_dependency 'omniauth-oauth2', '~> 1.0'
   gem.add_development_dependency 'rspec', '~> 2.7'
   gem.add_development_dependency 'rack-test'
